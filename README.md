@@ -28,12 +28,12 @@ Simply open `index.html` in your web browser to start using the application.
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/gpx-map-tracker-viewer.git
+   git clone https://github.com/jhkim0712/GPX-Map-Tracker-Viewer.git
    ```
 
 2. Navigate to the project directory:
    ```bash
-   cd gpx-map-tracker-viewer
+   cd GPX-Map-Tracker-Viewer
    ```
 
 3. Open `index.html` in your web browser:
@@ -121,9 +121,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📧 Contact
 
-Created by [@jhkim](mailto:jhkim@srs.ai) - feel free to contact me!
+Created by [@jhkim0712](https://github.com/jhkim0712) - feel free to contact me!
 
-Project Link: [https://github.com/yourusername/gpx-map-tracker-viewer](https://github.com/yourusername/gpx-map-tracker-viewer)
+Project Link: [https://github.com/jhkim0712/GPX-Map-Tracker-Viewer](https://github.com/jhkim0712/GPX-Map-Tracker-Viewer)
 
 ---
 
