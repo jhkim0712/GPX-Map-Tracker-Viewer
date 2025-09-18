@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+11111111111111
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>GPX Map Tracker Viewer</title>6
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <h2>GPX Map Tracker Viewer</h2>
+            <form id="fileForm">
+                <input type="file" id="gpxFile" accept=".gpx">
+                <button type="button" id="openBtn">Open File</button>
+            </form>
+            <div id="dropZone">Drag and drop your GPX file here</div>
+            <div id="fileInfo"></div>
+            <div id="trackPointsTable" style="display: none;">
+                <h3>Tracker Points</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>No.</th>
+                            <th>Lat</th>
+                            <th>Lon</th>
+                            <th>Distance (km)</th>
+                            <th>Address</th>
+                        </tr>
+                    </thead>
+                    <tbody id="trackPointsBody">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="map-area" id="map"></div>
+    </div>
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/@tmcw/togeojson@5.8.1/dist/togeojson.umd.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

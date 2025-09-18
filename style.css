@@ -1,0 +1,103 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
+.sidebar {
+  width: 20%;
+  min-width: 220px;
+  max-width: 350px;
+  background: #f8f9fa;
+  padding: 30px 20px;
+  box-sizing: border-box;
+  border-right: 1px solid #ccc;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+#dropZone {
+  border: 2px dashed #6c757d;
+  padding: 30px 10px;
+  text-align: center;
+  color: #555;
+  background: #f0f3f7;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+#dropZone.dragover {
+  background: #d1ecf1;
+}
+#fileInfo {
+  font-size: 0.9em;
+  color: #333;
+  margin-top: 10px;
+}
+.map-area {
+  flex: 1;
+  width: 80%;
+  height: 100%;
+  position: relative;
+}
+#map {
+  width: 100%;
+  height: 100%;
+}
+
+/* Tracker Points Table Styles */
+#trackPointsTable {
+  margin-top: 20px;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+#trackPointsTable h3 {
+  margin: 0 0 10px 0;
+  color: #333;
+  font-size: 1.1em;
+}
+
+#trackPointsTable table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.8em;
+}
+
+#trackPointsTable th,
+#trackPointsTable td {
+  border: 1px solid #ddd;
+  padding: 4px 6px;
+  text-align: left;
+}
+
+#trackPointsTable th {
+  background-color: #f1f3f4;
+  font-weight: bold;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+#trackPointsTable tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+#trackPointsTable tr:hover {
+  background-color: #f0f8ff;
+}
+
+#trackPointsTable td:nth-child(4) {
+  text-align: right;
+  font-weight: bold;
+  color: #2563eb;
+}
+
+#trackPointsTable td:nth-child(5) {
+  max-width: 150px;
+  word-wrap: break-word;
+  font-size: 0.75em;
+}
